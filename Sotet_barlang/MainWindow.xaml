@@ -1,0 +1,21 @@
+﻿<Window x:Class="Sotet_barlang.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sotet_barlang"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Bal oldal" Margin="76,61,600,342"/>
+        <Label Content="Jobb oldal" Margin="543,61,133,342"/>
+        <ListBox Name="jobbListbox"  Margin="499,104,133,103"/>
+        <ListBox Name="balListbox" Margin="54,104,578,103"/>
+        <Button Name="Kezdes" Content="Kezdés" Margin="249,50,334,331" Click="Kezdes_Click"/>
+        <Button Name="Jobbra" Content="→" Margin="263,186,453,195" Click="Jobbra_Click"/>
+        <Button Name="Balra" Content="←" Margin="371,186,345,195" Click="Balra_Click"/>
+        <Label Content="0" Name="Timer" Margin="283,299,368,89"/>
+        <Button Name="Lampa" Content="Lámpa" Margin="283,364,363,22" Click="lampa_Click"/>
+
+    </Grid>
+</Window>
